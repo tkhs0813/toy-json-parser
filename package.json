@@ -1,0 +1,27 @@
+{
+  "name": "toy-json-parser-ts",
+  "version": "0.1.0",
+  "description": "A toy JSON parser implemented in TypeScript for learning purposes",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage"
+  },
+  "keywords": [
+    "json",
+    "parser",
+    "typescript",
+    "tdd"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.3.3",
+    "vitest": "^1.2.0",
+    "@vitest/coverage-v8": "^1.2.0"
+  }
+}
